@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Faktum-WideSemibold';
+    src: url(./assets/fonts/faktum-wide-semi-bold.ttf);
+}
+
+/* npx tailwindcss -i ./input.css -o ./style.css --watch */
