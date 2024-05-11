@@ -5,6 +5,7 @@ module.exports = {
     fontFamily:{
 'dm-sans':['"DM Sans"', 'sans-serif'],
     'faktum': ['"Faktum-WideSemiBold"','sans-serif'],
+    'asgard': ['"AsgardTrial-WideRegular"','sans-serif'],
 },
     extend: {
       colors: {

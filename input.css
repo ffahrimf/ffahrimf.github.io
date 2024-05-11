@@ -7,5 +7,9 @@
     font-family: 'Faktum-WideSemibold';
     src: url(./assets/fonts/faktum-wide-semi-bold.ttf);
 }
+@font-face {
+    font-family: 'AsgardTrial-WideRegular';
+    src: url(./assets/fonts/AsgardTrial-WideRegular.ttf);
+}
 
 /* npx tailwindcss -i ./input.css -o ./style.css --watch */
