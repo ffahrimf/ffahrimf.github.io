@@ -3,9 +3,11 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     fontFamily:{
-'dm-sans':['"DM Sans"', 'sans-serif'],
+'dm-sans':['"Poppins"', 'sans-serif'],
     'faktum': ['"Faktum-WideSemiBold"','sans-serif'],
     'asgard': ['"AsgardTrial-WideRegular"','sans-serif'],
+    'handoSoft': ['"HandoSoftTrial-Regular"','sans-serif'],
+    'akira': ['"Akira-Expanded-Demo"','sans-serif'],
 },
     extend: {
       colors: {

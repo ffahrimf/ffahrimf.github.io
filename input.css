@@ -11,5 +11,13 @@
     font-family: 'AsgardTrial-WideRegular';
     src: url(./assets/fonts/AsgardTrial-WideRegular.ttf);
 }
+@font-face {
+    font-family: 'HandoSoftTrial-Regular';
+    src: url(./assets/fonts/HandoSoftTrial-Regular.ttf);
+}
+@font-face {
+    font-family: 'Akira-Expanded-Demo';
+    src: url(./assets/fonts/Akira-Expanded-Demo.ttf);
+}
 
 /* npx tailwindcss -i ./input.css -o ./style.css --watch */
