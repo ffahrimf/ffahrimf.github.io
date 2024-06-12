@@ -608,62 +608,6 @@ video {
   right: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.-left-0 {
-  left: -0px;
-}
-
-.-left-1 {
-  left: -0.25rem;
-}
-
-.-left-10 {
-  left: -2.5rem;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-4 {
-  left: 1rem;
-}
-
-.left-6 {
-  left: 1.5rem;
-}
-
-.left-7 {
-  left: 1.75rem;
-}
-
-.left-8 {
-  left: 2rem;
-}
-
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -763,10 +707,6 @@ video {
   margin-top: 2rem;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -801,20 +741,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.origin-bottom-left {
-  transform-origin: bottom left;
-}
-
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-rotate-90 {
-  --tw-rotate: -90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
@@ -1053,55 +979,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl\/\[50px\] {
-  font-size: 3rem;
-  line-height: 50px;
-}
-
-.text-5xl\/\[55px\] {
-  font-size: 3rem;
-  line-height: 55px;
-}
-
-.text-5xl\/\[60px\] {
-  font-size: 3rem;
-  line-height: 60px;
-}
-
-.text-5xl\/\[80px\] {
-  font-size: 3rem;
-  line-height: 80px;
-}
-
-.text-5xl\/\[90px\] {
-  font-size: 3rem;
-  line-height: 90px;
-}
-
-.text-\[55px\] {
-  font-size: 55px;
-}
-
-.text-\[54px\] {
-  font-size: 54px;
-}
-
-.text-\[53px\] {
-  font-size: 53px;
-}
-
-.text-\[52px\] {
-  font-size: 52px;
-}
-
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[49px\] {
-  font-size: 49px;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1221,11 +1098,6 @@ video {
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
-}
-
-.hover\:bg-\[\#d5d5d5\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(213 213 213 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primaryhover:hover {
