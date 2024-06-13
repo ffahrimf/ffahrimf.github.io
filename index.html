@@ -27,6 +27,10 @@
     button:hover #zoom-img {
       transform: scale(1.2);
     }
+    input::placeholder {
+      font-family: "Poppins";
+      font-size: 0.75rem;
+    }
   </style>
 
   <body>
@@ -190,7 +194,7 @@
                     </h3>
                   </button>
                   <button
-                    class="flex border border-black rounded-full px-6 py-3 justify-center items-center hover:bg-slate-50 transition duration-300 ease-in-out"
+                    class="flex border border-black rounded-full px-6 py-3 justify-center items-center hover:bg-gray-200 transition duration-300 ease-in-out"
                   >
                     <h3 class="font-dm-sans font-semibold">Hire Me</h3>
                   </button>
@@ -272,9 +276,13 @@
                 <h5 class="font-dm-sans text-gray-500 mt-3">
                   Lorem ipsum dolor sit amet<br />consectetur adipisicing.
                 </h5>
-                <h3 class="text-gray-400 font-asgard">
-                  Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
-                </h3>
+                <a href="">
+                  <h3
+                    class="text-gray-400 font-asgard hover:text-gray-500 transition duration-200 ease-in-out"
+                  >
+                    Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
+                  </h3>
+                </a>
               </div>
             </div>
             <div class="bg-[#705BC4] rounded-full px-20 py-24">
@@ -288,9 +296,13 @@
                 <h5 class="font-dm-sans text-gray-200 mt-3">
                   Lorem ipsum dolor sit amet<br />consectetur adipisicing.
                 </h5>
-                <h3 class="text-gray-300 font-asgard">
-                  Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
-                </h3>
+                <a href="">
+                  <h3
+                    class="text-gray-300 font-asgard hover:text-gray-100 transition duration-200 ease-in-out"
+                  >
+                    Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
+                  </h3>
+                </a>
               </div>
             </div>
             <div class="bg-[#705BC4] rounded-full px-20 py-24">
@@ -304,9 +316,13 @@
                 <h5 class="font-dm-sans text-gray-200 mt-3">
                   Lorem ipsum dolor sit amet<br />consectetur adipisicing.
                 </h5>
-                <h3 class="text-gray-300 font-asgard">
-                  Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
-                </h3>
+                <a href="">
+                  <h3
+                    class="text-gray-300 font-asgard hover:text-gray-100 transition duration-200 ease-in-out"
+                  >
+                    Learn More <i class="fa-solid fa-arrow-right ml-2 mt-3"></i>
+                  </h3>
+                </a>
               </div>
             </div>
           </div>
@@ -314,15 +330,16 @@
       </div>
     </section>
 
-    <section style="
-    background-image: url(./assets/img/about-pattern.png);
-    background-size: cover;
-  ">
+    <section
+      style="
+        background-image: url(./assets/img/about-pattern.png);
+        background-size: cover;
+      "
+    >
       <div class="container mx-auto py-28">
         <div class="mx-28">
           <div class="grid grid-cols-2">
-            <div class="bg-primary mr-16 ">
-            </div>
+            <div class="bg-primary mr-16"></div>
             <div class="flex flex-col gap-8 py-7">
               <div class="flex flex-col gap-3">
                 <h3 class="text-2xl font-medium font-dm-sans">
@@ -357,7 +374,7 @@
                   <div class="flex justify-between text-lg">
                     <button class="p-1">
                       <i
-                        class="fa-solid fa-arrow-right text-black bg-white rounded-full p-3 hover:bg-slate-50 transition duration-300 ease-in-out"
+                        class="fa-solid fa-arrow-right text-black bg-white rounded-full p-3 hover:bg-gray-100 transition duration-300 ease-in-out"
                       ></i>
                     </button>
                     <button
@@ -375,11 +392,507 @@
       </div>
     </section>
 
-
-    <section>
-      
+    <section
+      style="
+        background-image: url(./assets/img/edu-pattern.png);
+        background-size: cover;
+      "
+    >
+      <div class="container mx-auto pb-28">
+        <div class="mx-10">
+          <div class="flex flex-col gap-y-3">
+            <h3 class="text-2xl font-medium font-dm-sans text-center">
+              <span class="text-primary font-asgard font-black">-</span>
+              Education & Organization
+            </h3>
+            <h1 class="text-4xl font-faktum text-primary text-center">
+              <span class="text-gray-700">My</span> Education
+              <span class="text-gray-700">&</span> Organizational Experience
+            </h1>
+          </div>
+          <div class="grid grid-cols-2 gap-8 mt-12">
+            <div class="bg-gray-100 p-9 rounded-2xl">
+              <div>
+                <div class="flex items-center gap-6">
+                  <i
+                    class="fa-solid fa-graduation-cap text-white bg-primary rounded-full p-4 text-3xl"
+                  ></i>
+                  <h2 class="text-primary text-4xl font-semibold font-faktum">
+                    Education
+                  </h2>
+                </div>
+                <hr class="border-t-[1px] border-gray-300 mt-6 mb-6" />
+              </div>
+              <div class="flex flex-col gap-y-6">
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">
+                      LP3I Tasikmalaya
+                    </h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2022 - Present
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">Informatics Management</h2>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">
+                      SMAN 1 Ciamis
+                    </h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2019 - 2022
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">Math & Science</h2>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">
+                      MTs Annur Sadananya
+                    </h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2016 - 2019
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">Junior High School</h2>
+                </div>
+              </div>
+            </div>
+            <div class="bg-gray-100 p-9 rounded-2xl">
+              <div>
+                <div class="flex items-center gap-6">
+                  <i
+                    class="fa-solid fa-users text-white bg-primary rounded-full p-4 text-3xl"
+                  ></i>
+                  <h2 class="text-primary text-4xl font-semibold font-faktum">
+                    Organization
+                  </h2>
+                </div>
+                <hr class="border-t-[1px] border-gray-300 mt-6 mb-6" />
+              </div>
+              <div class="flex flex-col gap-y-6">
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">
+                      LP3I Computer Club
+                    </h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2022 - Present
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">Active Member</h2>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">
+                      Ultras Smansa
+                    </h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2019 - 2022
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">
+                    Treasurer | Social Media Specialist
+                  </h2>
+                </div>
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <h1 class="text-2xl font-medium text-gray-800">Ciradyka</h1>
+                    <h3
+                      class="text-xl font-medium bg-white rounded-xl px-3 py-2"
+                    >
+                      2019 - 2021
+                    </h3>
+                  </div>
+                  <h2 class="text-xl text-gray-500">Search & Rescue</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <section
+      style="
+        background-image: url(./assets/img/projects-pattern.png);
+        background-size: cover;
+      "
+    >
+      <div class="container mx-auto py-28">
+        <div class="mx-10">
+          <div>
+            <h4 class="text-white font-semibold text-2xl mb-4">
+              <span class="text-secondary font-asgard font-black">-</span>
+              Projects
+            </h4>
+            <div class="flex justify-between items-center">
+              <h1 class="text-white text-5xl font-faktum font-bold">
+                My <span class="text-secondary">Latest Projects</span>
+              </h1>
+              <div class="bg-white rounded-full">
+                <div class="flex justify-between text-lg">
+                  <button class="p-1">
+                    <i
+                      class="fa-solid fa-arrow-right text-white bg-primary rounded-full p-3 hover:bg-primaryhover transition duration-300 ease-in-out"
+                    ></i>
+                  </button>
+                  <button
+                    class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                  >
+                    View All Projects
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col mt-12 gap-y-8">
+            <div class="p-4 bg-[#705BC4] rounded-3xl">
+              <div class="grid grid-cols-2 gap-12">
+                <div class="w-200 overflow-hidden rounded-xl">
+                  <img
+                    src="assets/img/reimburseware.png"
+                    alt="Pattern"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                <div class="py-16">
+                  <div class="flex flex-col gap-6">
+                    <div class="flex flex-row space-x-3">
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Web App
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Dashboard
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        App Design
+                      </h5>
+                    </div>
+                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                      ReimburseWare<br />Web Application
+                    </h2>
+                    <p class="text-gray-300 font-dm-sans">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      <br />
+                      Amet earum laudantium cupiditate dolorem nihil molestias
+                      <br />
+                      ducimus!
+                    </p>
+                    <div class="flex">
+                      <div class="bg-white rounded-full inline-flex">
+                        <div class="flex text-lg">
+                          <button class="p-1">
+                            <i
+                              class="fa-solid fa-arrow-right text-white bg-primary rounded-full p-3 hover:bg-primaryhover transition duration-300 ease-in-out"
+                            ></i>
+                          </button>
+                          <button
+                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                          >
+                            View Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#705BC4] rounded-3xl">
+              <div class="grid grid-cols-2 gap-12">
+                <div class="py-16 ml-8">
+                  <div class="flex flex-col gap-6">
+                    <div class="flex flex-row space-x-3">
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Mobile App
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        UI/UX Design
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        App Design
+                      </h5>
+                    </div>
+                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                      MAM App<br />Mobile Application
+                    </h2>
+                    <p class="text-gray-300 font-dm-sans">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      <br />
+                      Amet earum laudantium cupiditate dolorem nihil molestias
+                      <br />
+                      ducimus!
+                    </p>
+                    <div class="flex">
+                      <div class="bg-white rounded-full inline-flex">
+                        <div class="flex text-lg">
+                          <button class="p-1">
+                            <i
+                              class="fa-solid fa-arrow-right text-white bg-primary rounded-full p-3 hover:bg-primaryhover transition duration-300 ease-in-out"
+                            ></i>
+                          </button>
+                          <button
+                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                          >
+                            View Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-200 overflow-hidden rounded-xl">
+                  <img
+                    src="assets/img/mam.png"
+                    alt="Pattern"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="p-4 bg-[#705BC4] rounded-3xl">
+              <div class="grid grid-cols-2 gap-12">
+                <div class="w-200 overflow-hidden rounded-xl">
+                  <img
+                    src="assets/img/ultraspng.png"
+                    alt="Pattern"
+                    class="w-full h-full object-cover"
+                  />
+                </div>
+                <div class="py-16">
+                  <div class="flex flex-col gap-6">
+                    <div class="flex flex-row space-x-3">
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Social Media Design
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Instagram
+                      </h5>
+                      <h5
+                        class="bg-secondary font-semibold px-4 py-1 rounded-full"
+                      >
+                        Feeds
+                      </h5>
+                    </div>
+                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                      Ultras Smansa<br />Instagram Feeds
+                    </h2>
+                    <p class="text-gray-300 font-dm-sans">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      <br />
+                      Amet earum laudantium cupiditate dolorem nihil molestias
+                      <br />
+                      ducimus!
+                    </p>
+                    <div class="flex">
+                      <div class="bg-white rounded-full inline-flex">
+                        <div class="flex text-lg">
+                          <button class="p-1">
+                            <i
+                              class="fa-solid fa-arrow-right text-white bg-primary rounded-full p-3 hover:bg-primaryhover transition duration-300 ease-in-out"
+                            ></i>
+                          </button>
+                          <button
+                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                          >
+                            View Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="grid grid-cols-12 text-center text-2xl font-semibold font-asgard bg-secondary"
+      >
+        <div class="col-span-2 py-4">Web App</div>
+        <div class="col-span-1 py-4">
+          <img src="assets/img/star.png" alt="" class="mx-auto" />
+        </div>
+        <div class="col-span-2 py-4">Website</div>
+        <div class="col-span-1 py-4">
+          <img src="assets/img/star.png" alt="" class="mx-auto" />
+        </div>
+        <div class="col-span-2 py-4">UI/UX Design</div>
+        <div class="col-span-1 py-4">
+          <img src="assets/img/star.png" alt="" class="mx-auto" />
+        </div>
+        <div class="col-span-2 py-4">Graphic Design</div>
+        <div class="col-span-1 py-4">
+          <img src="assets/img/star.png" alt="" class="mx-auto" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto py-20">
+      <div class="mx-10">
+        <div class="flex justify-between items-center">
+          <h1 class="text-5xl font-faktum font-bold">
+            Let's <span class="text-primary">Connect</span> There
+          </h1>
+          <div class="bg-black rounded-full">
+            <div class="flex justify-between text-lg">
+              <button class="p-1">
+                <i
+                  class="fa-solid fa-arrow-right bg-white rounded-full p-3 hover:bg-gray-100 transition duration-300 ease-in-out"
+                ></i>
+              </button>
+              <button
+                class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+              >
+                Hire Me Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="border-t-[1px] border-gray-300 mt-10 mb-10" />
+
+        <div class="grid grid-cols-3 py-5 gap-16">
+          <div class="">
+            <div class="flex flex-col gap-y-8">
+              <div class="flex items-center">
+                <a href="#"
+                  ><img src="/assets/img/main-logo.png" class="h-9" alt=""
+                /></a>
+                <a
+                  href="#"
+                  class="ml-3 text-2xl text-gray-800 font-medium font-faktum"
+                  >Fahri</a
+                >
+              </div>
+              <p class="text-gray-500 font-dm-sans">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                itaque maxime in. Adipisci, expedita provident.
+              </p>
+              <div class="flex flex-row space-x-3">
+                <a href="https://www.facebook.com/@ffahrimf" target="_blank">
+                  <i
+                    class="fa-brands fa-square-facebook text-white p-4 rounded-full bg-primary hover:bg-primaryhover transition duration-300 ease-in-out"
+                  ></i>
+                </a>
+                <a href="https://www.instagram.com/ffahrimf" target="_blank">
+                  <i
+                    class="fa-brands fa-instagram text-white p-4 rounded-full bg-primary hover:bg-primaryhover transition duration-300 ease-in-out"
+                  ></i>
+                </a>
+                <a href="https://www.behance.net/29e93eb6" target="_blank">
+                  <i
+                    class="fa-brands fa-behance text-white p-4 rounded-full bg-primary hover:bg-primaryhover transition duration-300 ease-in-out"
+                  ></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC3I8Qu0Kf5hQQrzXMmyFasA"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-youtube text-white p-4 rounded-full bg-primary hover:bg-primaryhover transition duration-300 ease-in-out"
+                  ></i>
+                </a>
+                <a href="https://linkedin.com/in/fahrimf" target="_blank">
+                  <i
+                    class="fa-brands fa-linkedin text-white p-4 rounded-full bg-primary hover:bg-primaryhover transition duration-300 ease-in-out"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 font-dm-sans">
+            <div>
+              <h3 class="text-lg text-primary font-asgard mb-7 font-semibold">
+                Navigation
+              </h3>
+              <div class="flex flex-col gap-y-5">
+                <h5 class="text-gray-500 text-sm">Home</h5>
+                <h5 class="text-gray-500 text-sm">Services</h5>
+                <h5 class="text-gray-500 text-sm">About</h5>
+                <h5 class="text-gray-500 text-sm">Projects</h5>
+                <h5 class="text-gray-500 text-sm">Blogs</h5>
+                <h5 class="text-gray-500 text-sm">FAQs</h5>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-lg text-primary font-asgard mb-7 font-semibold">
+                Contact
+              </h3>
+              <div class="flex flex-col gap-y-5">
+                <h5 class="text-gray-500 text-sm">+62-8522-3024-909</h5>
+                <h5 class="text-gray-500 text-sm">www.example.com</h5>
+                <h5 class="text-gray-500 text-sm">example@gmail.com</h5>
+                <h5 class="text-gray-500 text-sm">
+                  21 Sudirman Street,<br />Jakarta 42312
+                </h5>
+                <h5 class="text-gray-500 text-sm">Blogs</h5>
+                <h5 class="text-gray-500 text-sm">FAQs</h5>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <h3 class="text-lg text-primary font-asgard mb-7 font-semibold">
+              Get the latest information
+            </h3>
+            <div class="bg-white rounded-lg flex overflow-hidden">
+              <input
+                type="email"
+                placeholder="Email address"
+                class="py-2 px-4 bg-gray-100 text-gray-700 focus:outline-none"
+              />
+              <button
+                class="bg-primary hover:bg-primaryhover rounded-tr-lg rounded-br-lg p-4 flex items-center justify-center text-white transition duration-300 ease-in-out"
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-t-[1px] border-gray-300 mt-14 mb-14" />
+
+        <div class="flex justify-between text-gray-800 font-dm-sans text-lg">
+          <h5>
+            Copyright &copy; <span class="text-primary">Fahri</span>. All Rights
+            Reserved.
+          </h5>
+          <h5>User Terms & Conditions | Privacy Policy</h5>
+        </div>
+      </div>
+    </section>
 
     <script>
       function openNavbar() {
