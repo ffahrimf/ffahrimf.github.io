@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
 
     <link rel="stylesheet" href="style.css" />
 
@@ -34,7 +35,7 @@
   </style>
 
   <body>
-    <nav class="container mx-auto mt-8">
+    <nav class="container mx-auto mt-8 ">
       <div class="flex flex-wrap justify-between items-center mx-10">
         <div class="flex items-center">
           <a href="#"
@@ -54,46 +55,36 @@
           Menu
         </button>
         <div
-          class="hidden md:block w-full md:w-auto font-dm-sans font-medium text-gray-700"
+          class="hidden md:block w-full md:w-auto font-dm-sans font-medium  text-gray-700"
           id="navbar"
         >
           <ul class="flex flex-col md:flex-row gap-3 md:gap-9">
             <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
+              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary transition duration-200 ease-in-out"
             >
-              Home
+              <a href="#home">Home</a>
             </li>
             <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
+              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary transition duration-200 ease-in-out"
             >
-              Services
+            <a href="#services">Services</a>
             </li>
             <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
+              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary transition duration-200 ease-in-out"
             >
-              About
+            <a href="#about">About</a>
             </li>
             <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
+              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary transition duration-200 ease-in-out"
             >
-              Projects
-            </li>
-            <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
-            >
-              Blogs
-            </li>
-            <li
-              class="hover:bg-sky-500 md:hover:bg-transparent md:hover:text-primary cursor-pointer transition duration-200 ease-in-out"
-            >
-              Testimonial
+            <a href="#projects">Projects</a>
             </li>
           </ul>
         </div>
         <div>
           <a
-            class="hidden md:block bg-primary hover:bg-primaryhover py-3 px-7 text-white rounded-full font-semibold font-dm-sans hover:cursor-pointer transition duration-300 ease-in-out"
-            href="#"
+            class="text-sm hidden md:block bg-primary hover:bg-primaryhover py-3 px-7 text-white rounded-full font-semibold font-dm-sans hover:cursor-pointer transition duration-300 ease-in-out"
+            href="#contact"
           >
             Contact Me
           </a>
@@ -102,6 +93,7 @@
     </nav>
 
     <section
+      id="home"
       class="container mx-auto mt-14"
       style="
         background-image: url(./assets/img/white-pattern.png);
@@ -112,7 +104,7 @@
         <div class="col-start-1 py-20 flex items-end">
           <div class="mb-14">
             <div class="flex flex-col gap-1">
-              <h4 class="font-faktum text-xl">450+</h4>
+              <h4 class="font-faktum text-xl">12+</h4>
               <h5
                 class="mb-2 text-gray-700 font-dm-sans font-medium whitespace-nowrap"
               >
@@ -126,13 +118,13 @@
                   style="z-index: 1; top: 0; left: 0"
                 />
                 <img
-                  src="/assets/img/professional.jpg"
+                  src="/assets/img/professional2.jpg"
                   alt="gambar"
                   class="rounded-full h-14 w-14 absolute"
                   style="z-index: 2; top: 0; left: 35px"
                 />
                 <img
-                  src="/assets/img/professional.jpg"
+                  src="/assets/img/professional3.jpg"
                   alt="gambar"
                   class="rounded-full h-14 w-14 absolute"
                   style="z-index: 3; top: 0; left: 70px"
@@ -194,7 +186,7 @@
                     </h3>
                   </button>
                   <button
-                    class="flex border border-black rounded-full px-6 py-3 justify-center items-center hover:bg-gray-200 transition duration-300 ease-in-out"
+                    class="flex border border-black rounded-full px-6 py-3 justify-center items-center hover:bg-gray-100 transition duration-300 ease-in-out"
                   >
                     <h3 class="font-dm-sans font-semibold">Hire Me</h3>
                   </button>
@@ -226,7 +218,7 @@
         <div class="col-span-1 py-4">
           <img src="assets/img/star.png" alt="" class="mx-auto" />
         </div>
-        <div class="col-span-2 py-4">Graphic Design</div>
+        <div class="col-span-2 py-4 whitespace-nowrap">Graphic Design</div>
         <div class="col-span-1 py-4">
           <img src="assets/img/star.png" alt="" class="mx-auto" />
         </div>
@@ -234,6 +226,7 @@
     </section>
 
     <section
+    id="services"
       style="
         background-image: url(./assets/img/services-pattern.png);
         background-size: cover;
@@ -255,7 +248,7 @@
                     ></i>
                   </button>
                   <button
-                    class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                    class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                   >
                     View All Services
                   </button>
@@ -268,13 +261,13 @@
             <div class="bg-white rounded-full px-20 py-24">
               <div class="flex justify-center items-center">
                 <i
-                  class="fa-solid fa-home text-6xl bg-gray-200 text-primary rounded-full mx-auto p-10"
+                  class="fa-solid fa-display text-6xl bg-gray-200 text-primary rounded-full mx-auto p-10"
                 ></i>
               </div>
               <div class="text-center mt-6">
                 <h1 class="text-3xl font-faktum text-gray-800">UI/UX Design</h1>
                 <h5 class="font-dm-sans text-gray-500 mt-3">
-                  Lorem ipsum dolor sit amet<br />consectetur adipisicing.
+                  Create an intuitive and<br />attractive user interface.
                 </h5>
                 <a href="">
                   <h3
@@ -288,13 +281,13 @@
             <div class="bg-[#705BC4] rounded-full px-20 py-24">
               <div class="flex justify-center items-center">
                 <i
-                  class="fa-solid fa-home text-6xl bg-[#7E6BCA] text-white rounded-full mx-auto p-10"
+                  class="fa-solid fas fa-laptop-code text-6xl bg-[#7E6BCA] text-white rounded-full mx-auto p-10"
                 ></i>
               </div>
               <div class="text-center mt-6">
-                <h1 class="text-3xl font-faktum text-gray-100">UI/UX Design</h1>
+                <h1 class="text-3xl font-faktum text-gray-100">Web App</h1>
                 <h5 class="font-dm-sans text-gray-200 mt-3">
-                  Lorem ipsum dolor sit amet<br />consectetur adipisicing.
+                  Build a web that is<br />customized to your needs.
                 </h5>
                 <a href="">
                   <h3
@@ -308,13 +301,13 @@
             <div class="bg-[#705BC4] rounded-full px-20 py-24">
               <div class="flex justify-center items-center">
                 <i
-                  class="fa-solid fa-home text-6xl bg-[#7E6BCA] text-white rounded-full mx-auto p-10"
+                  class="fa-solid fas fa-sitemap text-6xl bg-[#7E6BCA] text-white rounded-full mx-auto p-10"
                 ></i>
               </div>
               <div class="text-center mt-6">
-                <h1 class="text-3xl font-faktum text-gray-100">UI/UX Design</h1>
+                <h1 class="text-3xl font-faktum text-gray-100">App Design</h1>
                 <h5 class="font-dm-sans text-gray-200 mt-3">
-                  Lorem ipsum dolor sit amet<br />consectetur adipisicing.
+                  Design an app that is easy<br />to use.
                 </h5>
                 <a href="">
                   <h3
@@ -331,6 +324,7 @@
     </section>
 
     <section
+    id="about"
       style="
         background-image: url(./assets/img/about-pattern.png);
         background-size: cover;
@@ -339,7 +333,7 @@
       <div class="container mx-auto py-28">
         <div class="mx-28">
           <div class="grid grid-cols-2">
-            <div class="bg-primary mr-16"></div>
+            <div id="lottie" class="mr-16"></div>
             <div class="flex flex-col gap-8 py-7">
               <div class="flex flex-col gap-3">
                 <h3 class="text-2xl font-medium font-dm-sans">
@@ -354,15 +348,16 @@
                 </h1>
               </div>
               <p class="text-gray-500 font-dm-sans">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consectetur in quo nesciunt enim rem, accusantium possimus.
+                Second-year Informatics Management student who has good
+                competence and experience in application development, database
+                management, and graphic design.
               </p>
               <div class="flex flex-col gap-4">
                 <div
                   class="grid grid-cols-2 text-4xl font-semibold font-faktum text-gray-800"
                 >
-                  <h2>600+</h2>
-                  <h2>50+</h2>
+                  <h2>10+</h2>
+                  <h2>1+</h2>
                 </div>
                 <div class="grid grid-cols-2 text-2xl text-gray-700">
                   <h2>Project Completed</h2>
@@ -378,13 +373,13 @@
                       ></i>
                     </button>
                     <button
-                      class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                      class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                     >
                       Download CV
                     </button>
                   </div>
                 </div>
-                <h3 class="ml-10 font-semibold text-3xl">Fahri Muhammad</h3>
+                <!-- <h3 class="ml-10 font-semibold text-3xl">Fahri Muhammad</h3> -->
               </div>
             </div>
           </div>
@@ -525,6 +520,7 @@
     </section>
 
     <section
+    id="projects"
       style="
         background-image: url(./assets/img/projects-pattern.png);
         background-size: cover;
@@ -549,7 +545,7 @@
                     ></i>
                   </button>
                   <button
-                    class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                    class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                   >
                     View All Projects
                   </button>
@@ -559,7 +555,7 @@
           </div>
 
           <div class="flex flex-col mt-12 gap-y-8">
-            <div class="p-4 bg-[#705BC4] rounded-3xl">
+            <div class="p-4 bg-[#705BC4] rounded-3xl shadow-sm">
               <div class="grid grid-cols-2 gap-12">
                 <div class="w-200 overflow-hidden rounded-xl">
                   <img
@@ -587,15 +583,14 @@
                         App Design
                       </h5>
                     </div>
-                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                    <h2 class="text-2xl text-gray-100 font-dm-sans font-medium">
                       ReimburseWare<br />Web Application
                     </h2>
                     <p class="text-gray-300 font-dm-sans">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Reimbursement app simplifies submission,<br />
+                      tracks status, prints receipts, and manages user roles
                       <br />
-                      Amet earum laudantium cupiditate dolorem nihil molestias
-                      <br />
-                      ducimus!
+                      efficiently.
                     </p>
                     <div class="flex">
                       <div class="bg-white rounded-full inline-flex">
@@ -606,7 +601,7 @@
                             ></i>
                           </button>
                           <button
-                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                            class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                           >
                             View Details
                           </button>
@@ -617,7 +612,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 bg-[#705BC4] rounded-3xl">
+            <div class="p-4 bg-[#705BC4] rounded-3xl shadow-sm">
               <div class="grid grid-cols-2 gap-12">
                 <div class="py-16 ml-8">
                   <div class="flex flex-col gap-6">
@@ -638,15 +633,14 @@
                         App Design
                       </h5>
                     </div>
-                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                    <h2 class="text-2xl text-gray-100 font-dm-sans font-medium">
                       MAM App<br />Mobile Application
                     </h2>
                     <p class="text-gray-300 font-dm-sans">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      MAM connects users with Tasikmalaya's UMKM<br />
+                      partners, offering affordable culinary options priced from
                       <br />
-                      Amet earum laudantium cupiditate dolorem nihil molestias
-                      <br />
-                      ducimus!
+                      IDR 0 to IDR 20,000.
                     </p>
                     <div class="flex">
                       <div class="bg-white rounded-full inline-flex">
@@ -657,7 +651,7 @@
                             ></i>
                           </button>
                           <button
-                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                            class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                           >
                             View Details
                           </button>
@@ -675,7 +669,7 @@
                 </div>
               </div>
             </div>
-            <div class="p-4 bg-[#705BC4] rounded-3xl">
+            <div class="p-4 bg-[#705BC4] rounded-3xl shadow-sm">
               <div class="grid grid-cols-2 gap-12">
                 <div class="w-200 overflow-hidden rounded-xl">
                   <img
@@ -703,15 +697,13 @@
                         Feeds
                       </h5>
                     </div>
-                    <h2 class="text-2xl text-gray-200 font-dm-sans font-medium">
+                    <h2 class="text-2xl text-gray-100 font-dm-sans font-medium">
                       Ultras Smansa<br />Instagram Feeds
                     </h2>
                     <p class="text-gray-300 font-dm-sans">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      <br />
-                      Amet earum laudantium cupiditate dolorem nihil molestias
-                      <br />
-                      ducimus!
+                      Designing engaging Instagram feeds for Ultras Smansacis,
+                      using vibrant colors and dynamic layouts to reflect the
+                      organization's identity and captivate followers.
                     </p>
                     <div class="flex">
                       <div class="bg-white rounded-full inline-flex">
@@ -722,7 +714,7 @@
                             ></i>
                           </button>
                           <button
-                            class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                            class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
                           >
                             View Details
                           </button>
@@ -754,14 +746,14 @@
         <div class="col-span-1 py-4">
           <img src="assets/img/star.png" alt="" class="mx-auto" />
         </div>
-        <div class="col-span-2 py-4">Graphic Design</div>
+        <div class="col-span-2 py-4 whitespace-nowrap">Graphic Design</div>
         <div class="col-span-1 py-4">
           <img src="assets/img/star.png" alt="" class="mx-auto" />
         </div>
       </div>
     </section>
 
-    <section class="container mx-auto py-20">
+    <section id="contact" class="container mx-auto py-20">
       <div class="mx-10">
         <div class="flex justify-between items-center">
           <h1 class="text-5xl font-faktum font-bold">
@@ -775,7 +767,7 @@
                 ></i>
               </button>
               <button
-                class="bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
+                class="text-sm bg-secondary rounded-full py-3 px-6 font-semibold hover:bg-secondaryhover transition duration-300 ease-in-out"
               >
                 Hire Me Now
               </button>
@@ -899,6 +891,14 @@
         let navbar = document.getElementById("navbar");
         navbar.classList.toggle("hidden");
       }
+
+      lottie.loadAnimation({
+        container: document.getElementById("lottie"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "./assets/img/about-animation.json",
+      });
     </script>
   </body>
 </html>
